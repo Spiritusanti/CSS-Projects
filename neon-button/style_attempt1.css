@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --clr-accent: fuchsia;
+    --clr-primary: #030303;
+    --ff: "Indie Flower", sans-serif;
+    --fs: 1.5em;
+}
+
+
+body {
+    background:#030303;
+    display: block;
+}
+
+.button-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.neon-btn {
+    height: 3em;
+    width: 7em;
+    border-radius: 5px;
+    background: none;
+    color: var(--clr-accent);
+    border: 0.25em solid var(--clr-accent);
+    box-shadow: 0px 0px 30px var(--clr-accent), 
+    inset 0px 0px 25px var(--clr-accent);
+    font-family: var(--ff);
+    font-size: var(--fs);
+    letter-spacing: 0.25em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.neon-btn::after {
+    content: '';
+    background: var(--clr-primary);
+}
+
+.neon-btn:hover {
+    background: fuchsia;
+    color: #030303;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 35px var(--clr-accent);
+}
