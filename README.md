@@ -3,10 +3,9 @@
 2. Each Project comes with it's own readme to help explain it's purpose ect.
 3. brief descriptions below
 
-# Neon Button
-## first project addition
+## Neon Button
 creating a neon themed button from anchor tag
 
 
-# 3D CSS Animations
+## 3D CSS Animations
 creating 3D balll and box bouncing animation
