@@ -8,4 +8,4 @@ creating a neon themed button from anchor tag
 
 
 ## 3D CSS Animations
-creating 3D balll and box bouncing animation
+creating 3D ball and box bouncing animation
